@@ -47,7 +47,7 @@ module ActiveAdmin::Mongoid::Document
     end
 
     def find_by_id id
-      find_by(:_id => id)
+      find(id)
     end
 
     def quoted_table_name
