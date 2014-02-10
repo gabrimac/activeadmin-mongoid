@@ -19,6 +19,5 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'mongoid',     '~> 4.0.0.beta1'
-  gem.add_runtime_dependency 'activeadmin'
   gem.add_runtime_dependency 'sass-rails',  ['~> 4.0.0', '>= 3.1.4']
 end
